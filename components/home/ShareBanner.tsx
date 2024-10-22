@@ -17,14 +17,14 @@ export default function ShareBanner() {
           Be sure to post it, our community would greatly appreciate it!
         </p>
 
-        <FormModal>
+        {/* <FormModal>
           <button className="flex items-center justify-center gap-2 rounded-xl bg-white px-4 py-4 text-sm font-semibold text-[#4dbbff] transition-all hover:bg-white/95">
             <span>Share resource</span>
             <span>
               <GoArrowRight size={18} />
             </span>
           </button>
-        </FormModal>
+        </FormModal> */}
       </div>
     </div>
   );
