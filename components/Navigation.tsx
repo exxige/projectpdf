@@ -10,11 +10,11 @@ export default function Navigation() {
       <nav>
         <ul>
           <li>
-            <FormModal>
-              <Button className="rounded-full border-[1.5px] border-[#a6a6a6] bg-black px-4 py-3 text-sm text-white transition-all hover:bg-black/85">
+              <a href="https://forms.gle/ZgmJxaZD1xzM3B6d9" className="rounded-full border-[1.5px] border-[#a6a6a6] bg-black px-4 py-3 text-sm text-white transition-all hover:bg-black/85">
                 Post SEO resource
-              </Button>
-            </FormModal>
+              </a>
+            {/* <FormModal>
+            </FormModal> */}
           </li>
         </ul>
       </nav>

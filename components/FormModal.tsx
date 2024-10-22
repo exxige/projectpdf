@@ -17,7 +17,7 @@ export default function FormModal({ children }: { children: ReactNode }) {
           <DialogTitle>Please fill the form</DialogTitle>
         </DialogHeader>
         <div className="min-h-[520px] w-full">
-          <iframe
+          {/* <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSeeGs_wzkZJfvd4-l7ydoKf1nOH3Lp0LL4pJkSbYcPslz8NSw/viewform?embedded=true"
             width="100%"
             height="100%"
@@ -27,7 +27,7 @@ export default function FormModal({ children }: { children: ReactNode }) {
             className="rounded-md"
           >
             Loading…
-          </iframe>
+          </iframe> */}
         </div>
       </DialogContent>
     </Dialog>
