@@ -70,8 +70,10 @@ export async function fetchDataByID(id: string) {
 
 export async function fetchAllTopics() {
   const result = await fetchSheetData();
+  console.log("Fact Sheet Data: ", result);
   if (result.success && result.data) {
     const topics = Array.from(new Set(result.data.map((item) => item.Topic)));
+
     return { success: true, data: topics };
   } else {
     return result; // Return the error if fetching failed

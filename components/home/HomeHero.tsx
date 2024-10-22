@@ -4,6 +4,7 @@ import React from "react";
 
 export default async function HomeHero() {
   const data = await fetchAllTopics();
+  console.log(data)
   const topics = data.data;
 
   return (
