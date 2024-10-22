@@ -1,7 +1,7 @@
 import React from "react";
 import { FiFileText } from "react-icons/fi";
-import { GoArrowRight } from "react-icons/go";
-import FormModal from "../FormModal";
+// import { GoArrowRight } from "react-icons/go";
+// import FormModal from "../FormModal";
 
 export default function ShareBanner() {
   return (
